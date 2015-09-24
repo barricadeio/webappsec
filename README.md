@@ -1,4 +1,14 @@
-# Web Application Security Containers
+# What is this?
+
+This docker image contains a subset of the tools we use within [Barricade](https://barricade.io) to automatically test the security of our application on every deployment. 
+
+We strongly believe that security should be part of normal operations and to be part of normal operations, security needs to be an adition to the existing continuous deployment and integration toolset. 
+
+# Continuous Integration, with Security
+
+Our believe is that security should just be a part of normal operations. This repository is what we use to run security tests alongside unit tests, regression tests and acceptance tests. 
+
+# Further Information
 
 This repository contains some of the work we use to integrate security right into our continuous integration process. 
 
