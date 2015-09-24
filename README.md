@@ -31,7 +31,7 @@ Once it gets this list, Wapiti acts like a fuzzer, injecting payloads to see if 
 
 To run a Wapiti docker test, simply run the command below
 ```
-docker run -t barricadeio/webappsec /usr/local/wapiti/bin/wapiti http://10.4.2.42/ -f json -b page -n 2 -o /tmp/scan.txt --verify-ssl 0
+docker run -t barricadeio/webappsec /usr/local/wapiti/bin/wapiti http://10.4.2.42/ -f json -b page -n 2 -o /tmp/scan.txt 
 ```
 
 # Be Responsible
